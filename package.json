@@ -1,0 +1,24 @@
+{
+  "name": "vue-cli-plugin-algento-starter",
+  "version": "1.0.2",
+  "description": "vue-cli plugin to add algento template starter",
+  "main": "index.js",
+  "script": {
+    "publish": "npm version patch && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:AlgentoHq/vue-cli-plugin-algento-starter.git"
+  },
+  "keywords": [
+    "vue",
+    "vue-cli",
+    "plugin",
+    "cli"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlgentoHq/vue-cli-plugin-algento-starter.git/issues"
+  },
+  "homepage": "https://github.com/AlgentoHq/vue-cli-plugin-algento-starter.git#readme"
+}

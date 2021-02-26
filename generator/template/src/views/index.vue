@@ -1,0 +1,3 @@
+<template>
+    <div>嗨</div>
+</template>
