@@ -1,21 +1,18 @@
 {
-    "useConfigFiles": true,
-    "packageManager": "yarn",
-    "useTaobaoRegistry": false,
-    "cssPreprocessor": "less",
-    "router": true,
-    "vuex": false,
-    "routerHistoryMode": false,
-    "plugins": {
-      "@vue/cli-plugin-babel": {},
-      "@vue/cli-plugin-e2e-cypress": {},
-      "@vue/cli-plugin-eslint": {
-        "config": "prettier",
-        "lintOn": ["save", "commit"]
-      },
-      "@vue/cli-plugin-pwa": {},
-      "@vue/cli-plugin-unit-jest": {},
-      "vue-cli-plugin-qrcode": {}
-    },
-    "configs": {}
+  "useTaobaoRegistry": true,
+  "router": false,
+  "routerHistoryMode": false,
+  "vuex": false,
+  "cssPreprocessor": "dart-sass",
+  "useConfigFiles": true,
+  "plugins": {
+    "@vue/cli-plugin-babel": {},
+    "@vue/cli-plugin-eslint": {
+      "config": "standard",
+      "lintOn": [
+        "save",
+        "commit"
+      ]
+    }
   }
+}
